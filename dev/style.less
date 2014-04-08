@@ -249,13 +249,15 @@ header {
 		-webkit-border-radius: 50%;
 		border-radius: 50%;
 		margin: 0 auto;
-		float: left;
+		display: inline-block;
+		vertical-align: middle;
 	}
 
 	#brand {
 		width: 80%;
 		margin: 0 auto;
-		float: left;
+		display: inline-block;
+		vertical-align: middle;
 
 		h1 {
 			font-family: @body-font;
@@ -273,14 +275,13 @@ header {
 				&:hover {
 				}
 			} //a
-
-			div {
-				font-weight: 200;
-				color: @light-grey;
-				text-transform: lowercase;
-			}
-
 		}// h1
+
+		.contact-group {
+			a {
+				padding-right: 8px;
+			}
+		}
 
 	}// #brand
 

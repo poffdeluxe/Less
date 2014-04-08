@@ -36,7 +36,7 @@
 		</div><!--/ author -->
 
 		<div id="brand">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> &mdash;</h1>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<div><?php echo get_bloginfo( 'description' ); ?></div>
 			<div class="contact-group">
 				<a href="http://poff.sexy"><i class="fa fa-home"></i></a>

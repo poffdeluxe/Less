@@ -460,12 +460,14 @@ header .gravatar {
   -webkit-border-radius: 50%;
   border-radius: 50%;
   margin: 0 auto;
-  float: left;
+  display: inline-block;
+  vertical-align: middle;
 }
 header #brand {
   width: 80%;
   margin: 0 auto;
-  float: left;
+  display: inline-block;
+  vertical-align: middle;
 }
 header #brand h1 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -482,10 +484,8 @@ header #brand h1 a {
   color: #565656;
   text-decoration: none;
 }
-header #brand h1 div {
-  font-weight: 200;
-  color: #888888;
-  text-transform: lowercase;
+header #brand .contact-group a {
+  padding-right: 8px;
 }
 header nav {
   float: left;
