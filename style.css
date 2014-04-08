@@ -460,10 +460,12 @@ header .gravatar {
   -webkit-border-radius: 50%;
   border-radius: 50%;
   margin: 0 auto;
+  float: left;
 }
 header #brand {
   width: 80%;
   margin: 0 auto;
+  float: left;
 }
 header #brand h1 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -475,13 +477,12 @@ header #brand h1 {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-  text-align: center;
 }
 header #brand h1 a {
   color: #565656;
   text-decoration: none;
 }
-header #brand h1 span {
+header #brand h1 div {
   font-weight: 200;
   color: #888888;
   text-transform: lowercase;

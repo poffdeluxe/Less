@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width" />
 <title><?php bloginfo('name'); ?> | <?php if( is_home() ) : echo bloginfo( 'description' ); endif; ?><?php wp_title( '', true ); ?></title>
 
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
@@ -35,7 +36,14 @@
 		</div><!--/ author -->
 
 		<div id="brand">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> &mdash; <span><?php echo get_bloginfo( 'description' ); ?></span></h1>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> &mdash;</h1>
+			<div><?php echo get_bloginfo( 'description' ); ?></div>
+			<div class="contact-group">
+				<a href="http://poff.sexy"><i class="fa fa-home"></i></a>
+				<a href="mailto:poff@augurnews.com" target="_blank"><i class="fa fa-envelope"></i></a>
+				<a href="http://twitter.com/poffdeluxe" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a href="http://github.com/poffdeluxe" target="_blank"><i class="fa fa-github-alt"></i></a>
+			</div>
 		</div><!-- /brand -->
 
 		<!--
