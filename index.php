@@ -71,6 +71,10 @@
 							</a>
 						</h1>
 						<div class="post-meta">
+							<span class="timestamp">
+								<?php the_time('g:i A l, F jS Y') ?> - 
+							</span>
+
 							<?php if( comments_open() ) : ?>
 								<span class="comments-link">
 									<?php comments_popup_link( __( 'Comment', 'break' ), __( '1 Comment', 'break' ), __( '% Comments', 'break' ) ); ?>
@@ -129,12 +133,15 @@
 					
 						<h1 class="title"><?php the_title() ?></h1>
 						<div class="post-meta">
+							<span class="timestamp">
+								<?php the_time('g:i A l, F jS, Y') ?> - 
+							</span>
+
 							<?php if( comments_open() ) : ?>
 								<span class="comments-link">
 									<?php comments_popup_link( __( 'Comment', 'less' ), __( '1 Comment', 'less' ), __( '% Comments', 'less' ) ); ?>
 								</span>
 							<?php endif; ?>
-						
 						</div><!--/post-meta -->
 						
 						<div class="the-content">
@@ -185,7 +192,6 @@
 					<article class="post">
 					
 						<h1 class="title"><?php the_title() ?></h1>
-						
 						<div class="the-content">
 							<?php the_content(); ?>
 							
