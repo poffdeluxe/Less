@@ -459,13 +459,11 @@ header .gravatar {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  margin: 0;
-  float: right;
+  margin: 0 auto;
 }
 header #brand {
-  float: left;
   width: 80%;
-  margin-top: 22px;
+  margin: 0 auto;
 }
 header #brand h1 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -477,6 +475,7 @@ header #brand h1 {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
+  text-align: center;
 }
 header #brand h1 a {
   color: #565656;
@@ -518,10 +517,11 @@ article {
 }
 article .title {
   color: #404040;
-  line-height: 56.24px;
-  font-size: 38px;
-  font-size: 3.8rem;
+  line-height: 88.8px;
+  font-size: 60px;
+  font-size: 6rem;
   font-weight: 700;
+  text-align: center;
 }
 article .title a {
   text-decoration: none;
@@ -533,6 +533,7 @@ article .title a:hover {
 article .post-meta {
   margin-bottom: 40px;
   font-size: 14px;
+  text-align: center;
 }
 article .post-meta a {
   color: #888888;

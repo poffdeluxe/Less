@@ -62,7 +62,7 @@ License: GNU General Public License
 	@body-text-size:	18;
 
 	// Title text size
-	@title-text-size:	38;
+	@title-text-size:	60;
 
 	// Site name color
 	@site-name-color:	@grey;
@@ -248,14 +248,12 @@ header {
 		-moz-border-radius: 50%;
 		-webkit-border-radius: 50%;
 		border-radius: 50%;
-		margin: 0;
-		float: right;
+		margin: 0 auto;
 	}
 
 	#brand {
-		float: left;
 		width: 80%;
-		margin-top: 22px;
+		margin: 0 auto;
 
 		h1 {
 			font-family: @body-font;
@@ -265,6 +263,7 @@ header {
 			margin: 0;
 			padding: 0;
 			text-transform: uppercase;
+			text-align: center;
 
 			a {
 				color: @site-name-color;
@@ -326,6 +325,7 @@ article {
 		color: @headinng-color;
 		.font-size(@title-text-size);
 		font-weight: 700;
+		text-align: center;
 
 		a {
 			text-decoration: none;
@@ -341,6 +341,7 @@ article {
 	.post-meta {
 		margin-bottom:  @margin;
 		font-size: 14px;
+		text-align: center;
 
 		a {
 			color: @light-grey;
