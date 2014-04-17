@@ -49,11 +49,11 @@ License: GNU General Public License
 	@import url(http://fonts.googleapis.com/css?family=Vollkorn:400,700);
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
-	// Body Font family
-	@body-font:		"Open Sans", Helvetica, Arial, sans-serif;
-
 	// Heading font family
-	@heading-font:	"Vollkorn", Georgia, serif;
+	@heading-font: "Open Sans", Helvetica, Arial, sans-serif;
+
+	// Body Font family
+	@body-font:	"Vollkorn", Georgia, serif;
 
 	// Site name size
 	@site-text-size:	16;
@@ -264,7 +264,7 @@ header {
 		vertical-align: middle;
 
 		h1 {
-			font-family: @body-font;
+			font-family: @heading-font;
 			font-weight: 900;
 			color: @site-name-color;
 			.font-size(@site-text-size);
@@ -280,6 +280,10 @@ header {
 				}
 			} //a
 		}// h1
+
+		.description {
+			font-family: @heading-font;
+		}
 
 		.contact-group {
 			a {

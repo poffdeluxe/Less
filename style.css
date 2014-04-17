@@ -321,7 +321,7 @@ select {
   padding: 0;
   margin: 0;
   background: #ffffff;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Vollkorn", Georgia, serif;
   line-height: 26.64px;
   font-size: 18px;
   font-size: 1.8rem;
@@ -336,7 +336,7 @@ h4,
 h5,
 h6 {
   clear: both;
-  font-family: "Vollkorn", Georgia, serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 h1 {
   line-height: 71.04px;
@@ -487,6 +487,9 @@ header #brand h1 {
 header #brand h1 a {
   color: #565656;
   text-decoration: none;
+}
+header #brand .description {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 header #brand .contact-group a {
   padding-right: 8px;
